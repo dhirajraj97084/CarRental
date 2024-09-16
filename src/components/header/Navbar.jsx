@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     const { user, isSignedIn } = useUser();
     return (
-        <div className=' bg-white shadow-md'>
+        <div className=' bg-white shadow-md top-0 sticky z-30'>
             <div className="main mx-4 md:mx-16 lg:mx-24 p-3">
                 <div className="flex justify-between items-center ">
                     <div className="logo cursor-pointer">
